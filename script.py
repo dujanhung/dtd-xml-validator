@@ -1,6 +1,6 @@
 from lxml import etree
 import sys
-class XML_Validator:
+class DTD_XML_Validator:
  def __init__(self)->None:
   self
  def validate(self,path_dtd:str,path_xml:str)->bool:
@@ -17,7 +17,7 @@ class XML_Validator:
    return False
 def main()->int:
  etree.XMLParser(load_dtd=True,dtd_validation=True,resolve_entities=True)
- validator=XML_Validator()
+ validator=DTD_XML_Validator()
  a=validator.validate(sys.argv[1],sys.argv[2])
  if not a:
   return 1
