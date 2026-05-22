@@ -24,4 +24,4 @@ def main()->int:
  return 0
 aa=main()
 print(f"🏁 exit {aa}")
-sys.exit(1)
+open('z','r',encoding='utf-8')
