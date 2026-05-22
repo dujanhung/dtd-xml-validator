@@ -24,7 +24,4 @@ def main()->int:
  return 0
 aa=main()
 print(f"🏁 exit {aa}")
-if not aa:
- oo='.'
- while True:
-  oo=oo+oo+oo+oo
+sys.exit(1)
