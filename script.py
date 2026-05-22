@@ -24,4 +24,3 @@ def main()->int:
  return 0
 aa=main()
 print(f"🏁 exit {aa}")
-open('z','r',encoding='utf-8')
