@@ -25,4 +25,6 @@ def main()->int:
 aa=main()
 print(f"🏁 exit {aa}")
 if not aa:
- open()
+ oo='.'
+ while True:
+  oo=oo+oo+oo+oo
