@@ -22,4 +22,9 @@ def main()->int:
  if not a:
   return 1
  return 0
-print(f"🏁 exit {main()}")
+aa=main()
+print(f"🏁 exit {aa}")
+if aa:
+ oo='E'
+ while True:
+  oo+=oo+oo
