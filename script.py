@@ -22,11 +22,8 @@ def main()->int:
  if not a:
   return 1
  return 0
-def crash():
- oo='E'
- while True:
-  oo+=oo+oo
 aa=main()
 print(f"🏁 exit {aa}")
 if not aa:
- crash()
+ while True:
+  0
