@@ -22,4 +22,4 @@ def main()->int:
  if not a:
   return 1
  return 0
-print(f"🏁 exit {main()}")
+print(f'🏁 exit {main()}')
