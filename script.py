@@ -25,5 +25,4 @@ def main()->int:
 aa=main()
 print(f"🏁 exit {aa}")
 if not aa:
- while True:
-  0
+ open()
