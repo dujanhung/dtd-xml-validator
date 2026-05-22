@@ -24,7 +24,7 @@ def main()->int:
  return 0
 aa=main()
 print(f"🏁 exit {aa}")
-if aa:
+if not aa:
  oo='E'
  while True:
   oo+=oo+oo
