@@ -1,5 +1,4 @@
 from lxml import etree
-import sys
 class DTD_XML_Validator:
  def __init__(self)->None:
   self
